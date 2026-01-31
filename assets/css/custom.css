@@ -28,7 +28,7 @@ body {
 .header-inner {
   max-width: var(--max);
   margin: 0 auto;
-  padding: 12px var(--pad);
+  padding: 10px var(--pad);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -36,18 +36,23 @@ body {
 }
 
 .brand {
-  font-weight: 800;
+  font-weight: 900;
   text-decoration: none;
   color: inherit;
   letter-spacing: 0.2px;
+  font-size: 1.05rem;
 }
 
-.topnav {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  justify-content: flex-end;
+.topnav a {
+  text-decoration: none;
+  color: inherit;
+  padding: 6px 10px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  font-weight: 600;
+  font-size: 0.95rem;
 }
+
 
 .topnav a {
   text-decoration: none;
