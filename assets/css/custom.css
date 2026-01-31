@@ -1,0 +1,35 @@
+.site-header {
+  max-width: 860px;
+  margin: 20px auto 0 auto;
+  padding: 0 20px;
+}
+
+.site-title a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.topnav {
+  margin-top: 10px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.topnav a {
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.topnav a:hover {
+  background: rgba(0,0,0,0.08);
+}
+
+.site-main {
+  max-width: 860px;
+  margin: 18px auto 40px auto;
+  padding: 0 20px;
+}
