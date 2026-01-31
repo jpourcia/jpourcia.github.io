@@ -2,7 +2,7 @@
 title: Join
 ---
 
-# Join 4m-contractor
+# Join 4M-CONTRACTORS
 
 ## Requirements
 - Discord access
