@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-# About 4m-contractor
+# About 4M-CONTRACTORS
 
 **Mission:** Build a tight, effective team that can run contracts and adapt fast.
 
