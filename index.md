@@ -1,6 +1,8 @@
 ---
+layout: default
 title: Home
 ---
+
 
 # 4m-contractor
 
