@@ -1,35 +1,77 @@
-.site-header {
-  max-width: 860px;
-  margin: 20px auto 0 auto;
-  padding: 0 20px;
+:root {
+  --max: 980px;
+  --pad: 18px;
+  --border: rgba(0,0,0,0.12);
+  --muted: rgba(0,0,0,0.65);
 }
 
-.site-title a {
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  line-height: 1.55;
+}
+
+.container {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 var(--pad);
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background: white;
+  border-bottom: 1px solid var(--border);
+}
+
+.header-inner {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 12px var(--pad);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.brand {
+  font-weight: 800;
   text-decoration: none;
-  font-weight: 700;
-  font-size: 1.2rem;
+  color: inherit;
+  letter-spacing: 0.2px;
 }
 
 .topnav {
-  margin-top: 10px;
   display: flex;
-  gap: 16px;
+  gap: 10px;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: flex-end;
 }
 
 .topnav a {
   text-decoration: none;
-  padding: 6px 10px;
-  border-radius: 6px;
+  color: inherit;
+  padding: 7px 10px;
+  border-radius: 10px;
+  border: 1px solid transparent;
 }
 
 .topnav a:hover {
-  background: rgba(0,0,0,0.08);
+  border-color: var(--border);
+  background: rgba(0,0,0,0.03);
 }
 
-.site-main {
-  max-width: 860px;
-  margin: 18px auto 40px auto;
-  padding: 0 20px;
+.main { padding: 28px 0 40px; }
+
+h1 { margin-top: 0; font-size: 2rem; }
+h2 { margin-top: 1.6rem; }
+
+p, li { color: var(--muted); }
+strong { color: rgba(0,0,0,0.85); }
+
+.footer {
+  border-top: 1px solid var(--border);
+  padding: 18px 0;
+  color: var(--muted);
 }
