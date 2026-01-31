@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page.title }} | {{ site.title }}</title>
+
+    <!-- Theme CSS (provided by the GitHub Pages theme) -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+    <!-- Your custom CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="site-title">
+        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      </div>
+
+      {% include nav.html %}
+    </header>
+
+    <main class="site-main">
+      {{ content }}
+    </main>
+  </body>
+</html>
