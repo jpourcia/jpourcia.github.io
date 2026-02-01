@@ -6,7 +6,7 @@ title: Join
 
 <section class="about-container">
   <div class="about-logo">
-    <img src="assets/4mc-logo.png" alt="4M-CONTRACTORS Logo">
+    <img src="assets/4M_Contractor_Web_Logo.png" alt="4M-CONTRACTORS Logo">
   </div>
 
   <div class="about-text">
