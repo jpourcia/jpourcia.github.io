@@ -92,3 +92,29 @@ strong { color: rgba(0,0,0,0.85); }
   display: block;
   border-radius: 14px;
 }
+
+/* About page: logo + text split layout */
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.about-logo {
+  flex: 1;
+  text-align: center;
+}
+
+.about-logo img {
+  max-width: 320px;
+  width: 100%;
+  height: auto;
+}
+
+.about-text {
+  flex: 2;
+}
+
