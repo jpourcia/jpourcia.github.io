@@ -4,12 +4,25 @@ title: Join
 
 # Join 4M-CONTRACTORS
 
-## Requirements
-- Discord access
-- Mic encouraged
-- Team-first attitude
+<section class="about-container">
+  <div class="about-logo">
+    <img src="assets/4mc-logo.png" alt="4M-CONTRACTORS Logo">
+  </div>
 
-## How to Join
-1. Introduce yourself
-2. Pick a primary division
-3. Run a few ops with the crew
+  <div class="about-text">
+    <h1>Join 4M-CONTRACTORS</h1>
+
+    <p><strong>4M-CONTRACTORS</strong> is a small, tight-knit org focused on teamwork and adaptability.</p>
+
+    <h3>What We Look For</h3>
+    <ul>
+      <li>Team-first attitude</li>
+      <li>Willingness to learn and adapt</li>
+      <li>Respect for other members</li>
+      <li>Enjoyment of organized gameplay</li>
+    </ul>
+
+    <p>If this sounds like you, we’d be glad to talk.</p>
+  </div>
+</section>
+
