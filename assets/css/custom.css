@@ -118,3 +118,14 @@ strong { color: rgba(0,0,0,0.85); }
   flex: 2;
 }
 
+/* About page: mobile stacking */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-logo img {
+    max-width: 220px;
+  }
+}
