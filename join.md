@@ -22,5 +22,18 @@ title: Join
 
     <p>If this sounds like you, we’d be glad to talk.</p>
 
+    <h3>Discord</h3>
+    <p>
+      <a href="https://discord.gg/pvAyWzC7tf" target="_blank" rel="noopener">
+        Join our Discord
+      </a>
+    </p>
+
+    <h3>Star Citizen Org Page</h3>
+    <p>
+      <a href="https://robertsspaceindustries.com/en/orgs/4MCONTRACT" target="_blank" rel="noopener">
+        View us on RSI
+      </a>
+    </p>
   </div>
 </section>
