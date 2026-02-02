@@ -24,7 +24,7 @@ title: Join
 
     <p>If this sounds like you, we’d be glad to talk.</p>
 
-        <p>
+    <p>
       <a href="https://discord.gg/pvAyWzC7tf](https://discord.gg/pvAyWzC7tf" target="_blank">
         Join our Discord
       </a>
@@ -39,4 +39,3 @@ title: Join
     
   </div>
 </section>
-
