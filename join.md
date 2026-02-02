@@ -23,9 +23,7 @@ title: Join
     <p>If this sounds like you, we’d be glad to talk.</p>
 
     <p>
-      <a href="https://discord.gg/pvAyWzC7tf" target="_blank" rel="noopener">
-        Join our Discord
-      </a>
+      <a href="https://discord.gg/pvAyWzC7tf" target="_blank" rel="noopener">Join our Discord</a>
     </p>
 
     <h3>Star Citizen Org Page</h3>
